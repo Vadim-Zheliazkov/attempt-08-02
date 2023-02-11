@@ -1,40 +1,113 @@
-.social-links 
-{
-    color: #ff0022;
+.list
+ {
+    list-style: none;
+}
+.link
+ {
     text-decoration: none;
-    border-collapse: collapse;
+}
+/* ****** COMPONENTS******* */
+.modal-btn {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    cursor: pointer;
+    /* color: #FFFFFF; */
 }
 
-button[type] {
-    color: teal
+.modal-btn:hover,
+.modal-btn:focus {
+    background-color: #FF6C00;
+    color: white;
 }
 
-a[href="#"] {
-    color: orange;
-border-collapse: collapse;
-}
-}
-.link {
-     
-}
-.link:hover {
-    color: black;
-    background-color: red;
-}
-.schedule-body tr:hover {
-    background-color: purple;
-    color:lightblue;
- }
-    /* Table styling */
-    
-    
-.schedule {
-  border-collapse: collapse;
+.media-list-link {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.2em;
+    color: #303030;
 }
 
-.schedule th,
-.schedule td {
-  padding: 14px;
-  border: 1px solid #212121;
+.media-list-link:hover,
+.media-list-link:focus {
+    color: #FF6C00;
+    ;
 }
+
+.suptitle {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-transform: uppercase;
+    /* color: rgba(157, 164, 189, 0.6); */
+}
+.section-description {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67;
+      letter-spacing: 0.02em;
+    /* color: #9DA4BD; */
+}
+
+.suptitle-theme-dark {
+color: rgba(157, 164, 189, 0.6);
+}
+.suptitle-theme-light {
+color: #303030;
+}
+
+
+/* ****** /COMPONENTS******* */
+
+/***********HEADER **********/
+
+.menu-link {
+font-family: 'Open Sans', sans-serif;
+font-weight: 600;
+font-size: 12px;
+line-height: 1.33;
+letter-spacing: 0.1em;
+/* color: #FFFFFF; */
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: #FF6C00;
+}
+.contact-phone-number {
+font-family: 'Open Sans', sans-serif;
+font-weight: 600;
+font-size: 12px;
+line-height: 1.33;
+letter-spacing: 0.1em;
+/* color: #FFFFFF; */
+}
+
+.contact-phone-number:hover,
+.contact-phone-number:focus 
+{
+color: #FF6C00;
+}
+
+/* ********** /HEADER **********/ 
+
+/* ************  HERO  ***********/
+.main-title {
+font-family: 'Raleway', sans-serif;
+font-weight: 700;
+font-size: 72px;
+line-height: 1.18;
+letter-spacing: 0.05em;
+/* color: #FFFFFF; */}
+
+
+/* ************  /HERO  ***********/
+
 
